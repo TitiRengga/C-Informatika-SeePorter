@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* menu bar */
+.nav-item {
+    background-color: #b3e6cc;
+    border-radius: 10px;
+    font-size: 20px;
+    color: pink;
+}
