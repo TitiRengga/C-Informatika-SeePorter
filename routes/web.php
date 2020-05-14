@@ -28,4 +28,8 @@ Route::get('/pilihdaftar', function(){
     return view('pilihdaftar');
 });
 
+Route::get('/team-section', function () {
+    return view('team-section');
+});
+
 Route::post('/registerporter', 'RegisterporterrController@tambahporter');
