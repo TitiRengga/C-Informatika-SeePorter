@@ -25,10 +25,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <style>
-        body{
-            background-color: #ff1a75;
-        }
-
+  
         .team {
         min-height: 500px;
         padding: 60px 15px;
@@ -69,67 +66,65 @@
             margin: 10px auto;
             border-radius: 50%;
             color: #ffffff;
+        }
 
-}
+        .team .card .box h4 {
+            font-size: 20px;
+            font-family: 'Montserrat';
+            margin: 20px 0px 10px;
+            color: #31a840;
+            text-align: center;
+            font-weight: 700;
+        }
 
-.team .card .box h4 {
-  font-size: 20px;
-  font-family: 'Montserrat';
-  margin: 20px 0px 10px;
-  color: #31a840;
-  text-align: center;
-  font-weight: 700;
-}
+        .team .card .box h5 {
+            font-size: 16px;
+            font-family: 'Montserrat';
+            font-weight: 600;
+            color: #b9b9b9;
+            margin: 0px 0px 15px;
+            text-align: center;
+        }
 
-.team .card .box h5 {
-  font-size: 16px;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  color: #b9b9b9;
-  margin: 0px 0px 15px;
-  text-align: center;
-}
-
-.team .card .box p {
-  color: #b9b9b9;
-  font-size: 15px;
-  font-family: 'Montserrat';
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-  padding: 0px 20px;
-}
+        .team .card .box p {
+            color: #b9b9b9;
+            font-size: 15px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            padding: 0px 20px;
+        }
 
         .about-section {
-        width: 100%;
-        height: 200%;
-  background: #738299;
-  padding: -100px -100px;
-  font-family: 'Montserrat', sans-serif;
-background-size: 110%;
+            width: 100%;
+            height: 200%;
+            background: #738299;
+            padding: -100px -100px;
+            font-family: 'Montserrat', sans-serif;
+            background-size: 110%;
+        }
 
-}
+        .about H2 {
+            color: #000000;
+            font-family: 'Montserrat', sans-serif;
+        }
 
-.about H2 {
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-}
+      .about H1 {
+            color: #000000;
+            font-size: 36px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+      }
 
-.about H1 {
-  color: #000000;
-  font-size: 36px;
-  font-family: 'Montserrat';
-  font-weight: 700;
-}
+      .team .icon b,
 
-.team .icon b,
-
-.inner-width {
-  max-width: 1000px;
-  overflow: hidden;
-  padding: 0 20px;
-  margin: auto;
-}
+      .inner-width {
+          max-width: 1000px;
+          overflow: hidden;
+          padding: 0 20px;
+          margin: auto;
+      }
 
 .about-section h1 {
   text-align: center;
@@ -201,16 +196,16 @@ ig:	font-family: 'Montserrat';
   .box{
 	  color: #ffffff;
   }
+
 }
     </style>
 
 </head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img class="pr-2" src="{{ asset('img/AA.png') }}" height="60" alt="logo" style="margin-left:-60px" >
+                    <img class="pr-2" src="{{ asset('img/AA.png') }}" height="60" alt="logo"  >
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -223,7 +218,7 @@ ig:	font-family: 'Montserrat';
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav " >
                         <li class="nav-item active m-3">
                             <a class="nav-link" href="/">HOME</a>
                         </li>
@@ -268,6 +263,5 @@ ig:	font-family: 'Montserrat';
         <main class="py-4">
             @yield('content')
         </main>
-    </div>
 </body>
 </html>
