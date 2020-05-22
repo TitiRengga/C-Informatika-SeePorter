@@ -3,11 +3,11 @@
 
 @section('content')
 <div id="app" class="main-img" style ="background-image: url('img/background.jpeg')">
-<div class="container-login" >
+<div class="container-register" >
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card text-center"> 
-                <div class="card-header">{{ __('REGISTER') }}
+                <div class="card-header">{{ __('REGISTER PORTER') }}
                 <h2>Diharapkan Mengisi Data yang Benar</h2>
                 </div>
 
@@ -113,18 +113,12 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0 "  style ="margin-top: 20px; margin-right:20px">
-                            <div class="col-md-6 offset-md-4">
-                                <a href="{{ route('login') }}"  class="btn btn-light">
-                                    {{ __('Kembali') }}
-                                </a>
-
-                                <button type="submit" class="btn btn-light">
+                        <div class="button row mb-0 "  style ="margin-top: 20px">
+                            <div class="tekan offset-md-4">
+                            <button type="submit" class="btn-register btn-outline-primary>">
                                     {{ __('Register') }}
                                 </button>
-
-                            </div>
-
+                            
                             <div class="lanjutan">
                                 <p>Dengan membuat akun, Anda menyetujui Ketentuan</p>
                                 <p>Layanan dan kebijakkan Privasi kami.</p>
