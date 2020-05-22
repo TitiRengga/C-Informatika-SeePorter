@@ -16,10 +16,15 @@
     min-height: 30px;
     font-size: 16px;
     font-family: sans-serif;
+    margin-right: -120px;
 
 }
 
-nav {
+.navbar-brand {
+    margin-left: -100px;
+}
+
+.navbar {
     background-color: rgb(199, 189, 189);
     width: 100%;
 }
@@ -47,8 +52,9 @@ a:hover {
     text-align: center;
 }
 
-.container-login {
+.container-register {
     margin-top: -22px;
+    width: 98%;
 
 }
 
@@ -57,6 +63,7 @@ a:hover {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    width: 600px;
 }
 
 .card-body {
@@ -64,11 +71,12 @@ a:hover {
     font-size: 15px;
     color: white;
     border: 5px solid black;
+
 }
 
 .card-header {
     background-color: #b3e6cc;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     border: 5px solid black;
 }
@@ -78,9 +86,57 @@ a:hover {
     font-size: 16px;
 }
 
-.lanjutan p {
-    text-align: center;
+.btn-register {
+    color: white;
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px;
     font-size: 16px;
-    line-height: 1.5em;
+    background-color: rgb(73, 113, 221);
+    cursor: pointer;
+    margin-left: -150px;
     margin-top: 10px;
+}
+
+.lanjutan {
+    margin-top: 10px;
+    margin-left: -150px;
+}
+
+.lanjutan p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 908px) {
+
+    .navbar-brand {
+        margin-left: -10px;
+    }
+
+    .navbar ul li a {
+        border-bottom: 1px solid rgb(131, 126, 126);
+        width: auto;
+        margin-left: -12px;
+    }
+
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .btn-register {
+        width: 400px;
+        padding: 5px;
+        cursor: pointer;
+        margin-right: -625px;
+    }
+
+    .lanjutan {
+        margin-top: 10px;
+        margin-right: -625px;
+    }
+
 }
