@@ -1,0 +1,35 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.contact {
+    font-size: 16px;
+    margin-left: -250px;
+    font-family: sans-serif;
+}
+
+.form-control-contact {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.form-control-pesan {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 100px;
+}
+
+.btn-contact {
+    margin-left: 300px;
+    width: 150px;
+    border-radius: 5px;
+}

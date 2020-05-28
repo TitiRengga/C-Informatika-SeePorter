@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pilihdaftar');
+    return view('welcome');
 });
 
 Auth::routes();
@@ -28,4 +28,13 @@ Route::get('/pilihdaftar', function(){
     return view('pilihdaftar');
 });
 
+Route::get('/contact', 'contact@showContact');
+
+Route::post('/contact', 'contact@sendMail');
+
+Route::get('/team-section', function () {
+    return view('team-section');
+});
+
 Route::post('/registerporter', 'RegisterporterrController@tambahporter');
+
