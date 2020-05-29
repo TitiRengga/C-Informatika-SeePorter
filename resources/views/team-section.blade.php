@@ -4,7 +4,6 @@
 <div class="services-section">
     <div class="inner-width">
 		<h1 class="section-title">3 pilar SeePorter</h1>
-		<div class="border" style="margin-top:-20px; width:30vh"></div>
         <div class="services-container">
 
         <div class="service-box">
@@ -23,7 +22,7 @@
             </div>
             <div class="service-title">tarif yang terjangkau</div>
             <div class="service-desc">
-			Kami memberikan tarif setiap layanan yang diberikan cocok dengan sem kalangan.
+			Kami memberikan tarif setiap layanan yang diberikan cocok dengan semua kalangan.
             </div>
 		</div>
 
@@ -45,7 +44,6 @@
             <div class="section-title">
                 <h1>Anggota Tim</h1>
             </div>
-            <div class="border" style="margin-top:-60px; width:30vh"></div>
         </div>
         <div class="row">
             <div class="team-items">
