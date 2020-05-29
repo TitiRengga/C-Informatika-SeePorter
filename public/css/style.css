@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -20,7 +19,7 @@
     display: flex;
     min-height: 30px;
     font-size: 15px;
-    font-family: Crete Round;
+    font-family: Montserrat;
     margin-right: -120px;
 }
 
@@ -84,14 +83,14 @@
 
 .card-header {
     background-color: #b3e6cc;
-    font-family: Kalam;
+    font-family: Montserrat;
     font-size: 30px;
     color: black;
     border: 3px solid black;
 }
 
 .card-header h2 {
-    font-family: Crete Round;
+    font-family: Montserrat;
     font-size: 16px;
 }
 
@@ -116,6 +115,69 @@
     margin-bottom: 5px;
 }
 
+/* Slider */
+#slider {
+    width: 100%;
+    margin-top: -24px;
+}
+
+/* About */
+#about {
+    margin-top: 30px;
+    color: #555;
+}
+
+#about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#about h1 {
+    margin-left: 14px;
+}
+
+.left {
+    background-color: teal;
+    padding: 60px;
+    color: white;
+    width: 600px auto;
+    text-align: center;
+}
+
+.right {
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.right h1 {
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 60px;
+}
+
+
+.about.content {
+    padding-top: 40px;
+}
+
+.skill-bar p {
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    border-radius: 16px;
+    font-size: medium;
+    background-color: teal;
+}
+
+.progress {
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+
 /* deskripsi */
 #deskripsi {
     background-color: #2d8659;
@@ -130,8 +192,9 @@
 
 #deskripsi h1 {
     font-size: 30px;
-    font-family: Crimson Text;
+    font-family: Montserrat;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .deskripsi1 p {
@@ -154,6 +217,10 @@
 }
 
 @media (max-width: 760px) {
+    .right {
+        margin-left: 20px;
+    }
+
     .navbar-nav {
         margin-right: -50px;
         flex-basis: 100%;
@@ -222,7 +289,7 @@
     text-transform: uppercase;
     font-size: 30px;
     margin-bottom: 30px;
-    font-family: Crimson Text;
+    font-family: Montserrat;
 }
 
 .border {
@@ -271,12 +338,13 @@
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-family: Crete Round;
+    font-family: Montserrat;
 }
 
 .service-desc {
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: Montserrat;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width:960px) {
@@ -320,7 +388,7 @@
     text-align: center;
     margin: 0;
     color: #ffffff;
-    font-family: Crimson Text;
+    font-family: Montserrat;
 }
 
 .team-section .section-title p {

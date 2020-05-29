@@ -3,21 +3,19 @@
 @section('content')
 <section id="deskripsi">
     <div class="container text-center">
-        <h1>Deskripsi</h1>
+        <h1>Filosofi SeePorter</h1>
         <div class="row-deskripsi">
             <div class="deskripsi-col">
                 <div class="deskripsi1">
                     <p style="text-align: justify;">
-                            Party Planner ialah website yang menyediakan berbagai jasa Party Planning untuk
-                            mendekorasi berbagai event organizer. Party Planner sebagai penghubung antara
-                            anda dan Jasa Party Planner yang ada inginkan. Website ini tidak hanya terdapat
-                            satu tetapi banyak Jasa Party Planning yang tersebar di seluruh Banda Aceh
-                            sehingga anda dapat memilih Party Planning yang anda inginkan sesuai kriteria
-                            anda. Jasa Party planning banyak diminati karena dapat mewujudkan keinginan para
-                            penggunanya dalam mendekorasi acara. Party Planner menawarkan berbagai tema dan
-                            warna untuk acara pesta yang kamu inginkan dari berbagai jasa party planning.
-                            Mulai dari yang simpel tapi elegan sampai yang glamor. Jasa Party planning yang
-                            kami tawarkan sangat terjamin dan harga bersahabat.
+                        Logo See Porter melambangkan nama kelompok kami yaitu C dan apabila bila dibaca tulisan nya seperti See dalam bahasa inggris
+                        dan porter disini ialah orang yang membantu mengangkat barang di sekitaran Pasar. Pasar yang digunakan ialah pasar sekitaran
+                        Banda Aceh seperti Pasar Peunayong, Setui, keutapang, Rukoh, dan Lambaro. 
+                    </p>
+                    <p>
+                        See Porter memberikan pelayanan dalam bidang jasa kepada siapa saja yang berada disekitaran pasar kota Banda Aceh yang kesusahan
+                        mengangkat barang belanjaan. Tarif yang ditawarkan untuk setiap kali pelayanan yang diberikan sangat terjangkau dan sesuai dengan
+                        semua kalangan.  
                     </p>
                 </div>
             </div>
