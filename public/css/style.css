@@ -116,6 +116,32 @@
     margin-bottom: 5px;
 }
 
+/* deskripsi */
+#deskripsi {
+    background-color: #2d8659;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(247, 240, 240) !important;
+    background-attachment: fixed;
+    margin-top: -24px;
+}
+
+#deskripsi h1 {
+    font-size: 30px;
+    font-family: Crimson Text;
+    text-transform: uppercase;
+}
+
+.deskripsi1 p {
+    text-align: justify;
+    margin: 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+
 @media (max-width: 991px) {
 
     .navbar-brand {

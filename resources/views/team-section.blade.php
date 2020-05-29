@@ -1,6 +1,30 @@
 @extends('layouts.app')
 
 @section('content')
+<section id="deskripsi">
+    <div class="container text-center">
+        <h1>Deskripsi</h1>
+        <div class="row-deskripsi">
+            <div class="deskripsi-col">
+                <div class="deskripsi1">
+                    <p style="text-align: justify;">
+                            Party Planner ialah website yang menyediakan berbagai jasa Party Planning untuk
+                            mendekorasi berbagai event organizer. Party Planner sebagai penghubung antara
+                            anda dan Jasa Party Planner yang ada inginkan. Website ini tidak hanya terdapat
+                            satu tetapi banyak Jasa Party Planning yang tersebar di seluruh Banda Aceh
+                            sehingga anda dapat memilih Party Planning yang anda inginkan sesuai kriteria
+                            anda. Jasa Party planning banyak diminati karena dapat mewujudkan keinginan para
+                            penggunanya dalam mendekorasi acara. Party Planner menawarkan berbagai tema dan
+                            warna untuk acara pesta yang kamu inginkan dari berbagai jasa party planning.
+                            Mulai dari yang simpel tapi elegan sampai yang glamor. Jasa Party planning yang
+                            kami tawarkan sangat terjamin dan harga bersahabat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="services-section">
     <div class="inner-width">
 		<h1 class="section-title">3 pilar SeePorter</h1>
