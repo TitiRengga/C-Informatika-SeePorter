@@ -23,7 +23,7 @@
             </div>
             <div class="service-title">tarif yang terjangkau</div>
             <div class="service-desc">
-			Kami memberikan tarif setiap layanan yang diberikan cocok dengan semua kalangan.
+			Kami memberikan tarif setiap layanan yang diberikan cocok dengan sem kalangan.
             </div>
 		</div>
 
