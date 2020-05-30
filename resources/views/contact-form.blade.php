@@ -34,16 +34,16 @@
             @endif
                 {{ csrf_field() }}
 
-                <label for="name">Name</label>
+                <label class="label" for="name">Name</label>
                 <input class="form-control" type="text" name="name" placeholder="Name" />
                     
-                <label for="email">Email</label>
+                <label class="label" for="email">Email</label>
                 <input class="form-control" type="email" name="email" placeholder="Email Address" />
 
-                <label for="email">Number Phone</label>
+                <label class="label" for="email">Number Phone</label>
                 <input class="form-control" type="numberic" name="no.hp" placeholder="Number Phone" />
                     
-                <label for="message">Message</label>
+                <label class="label" for="message">Message</label>
                 <textarea class="form-control" name="message" id="" placeholder="Message" cols="30" rows="3"></textarea><br>
                 
                 <div class="submit-area">
@@ -53,6 +53,11 @@
 
             <form>
         </div>
+
     </div>
 </div>
+
+@include('layouts.footer')
+
+
 @endsection

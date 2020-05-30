@@ -100,14 +100,5 @@
         <main class="py-4">
             @yield('content')
         </main>
-
-        <div class="container-footer">
-            <div class="copyright">
-                &copy; Copyright<strong>SeePorter</strong>. All Right Reserved
-            </div>
-            <div class="credit">
-                Designed by SeePorter
-            </div>
-        </div>
 </body>
 </html>

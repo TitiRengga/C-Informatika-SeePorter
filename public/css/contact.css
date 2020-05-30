@@ -17,7 +17,9 @@
     display: flex;
     justify-content: center;
     transition: .5s all ease;
+    margin-bottom: 20px;
 }
+
 
 .form-area h2 {
     font-weight: 500;
@@ -69,6 +71,15 @@
 .contact-from .form {
     width: 400px;
     margin-top: 40px;
+}
+
+.label {
+    margin-top: 15px;
+}
+
+.form-control {
+    padding-bottom: 15px;
+    font-size: Montserrat;
 }
 
 .contact-form .contact .form input:focus,
