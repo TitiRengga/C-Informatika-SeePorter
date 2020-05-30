@@ -129,7 +129,7 @@
     }
 
     .contact-from .contact .form {
-        width: 485px;
+        width: 90%px;
     }
 }
 
@@ -143,12 +143,16 @@
         margin-top: -24px;
     }
 
+    .contact-from .form {
+        width: 400px;
+    }
+
     .contact-from .form-area .contact {
         flex-direction: column;
     }
 
     .contact-from .form-area .contact .map {
-        width: 100%;
+        width: 90%;
         margin-right: 0;
         margin-bottom: 30px;
     }
