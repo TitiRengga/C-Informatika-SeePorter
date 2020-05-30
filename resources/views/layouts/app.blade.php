@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 
     <!-- Bootstrap CSS -->
@@ -57,7 +59,7 @@
                         </li>
 
                         <li class="nav-item active m-3" >
-                            <a class="nav-link" href="#">CONTACT US</a>
+                            <a class="nav-link" href="/contact">CONTACT US</a>
                         </li>
                         
 
@@ -98,5 +100,14 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <div class="container-footer">
+            <div class="copyright">
+                &copy; Copyright<strong>SeePorter</strong>. All Right Reserved
+            </div>
+            <div class="credit">
+                Designed by SeePorter
+            </div>
+        </div>
 </body>
 </html>

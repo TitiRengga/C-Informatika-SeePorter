@@ -74,7 +74,6 @@
                     <div class="inner">
                         <div class="info">
                             <h5>Hadi Shirath Maulana</h5>
-                            <p>Designer</p>
                             <div class="social-links">
                                 <a href="https://www.facebook.com/hadi.shirath"><span class="fa fa-facebook"></span></a>
                                 <a href="https://github.com/HadiShirathMaulana"><span class="fa fa-github"></span></a>
@@ -89,7 +88,6 @@
                     <div class="inner">
                         <div class="info">
                             <h5>Titi Rengga Sari</h5>
-                            <p>Designer</p>
                             <div class="social-links">
                                 <a href="https://www.facebook.com/titi.rengga.3"><span class="fa fa-facebook"></span></a>
                                 <a href="https://github.com/TitiRengga"><span class="fa fa-github"></span></a>
@@ -104,7 +102,6 @@
                     <div class="inner">
                         <div class="info">
                             <h5>M. Faried Risky</h5>
-                            <p>Designer</p>
                             <div class="social-links">
                                 <a href="http://facebook.com/fariedrisky"><span class="fa fa-facebook"></span></a>
                                 <a href="https://github.com/fariedrisky12"><span class="fa fa-github"></span></a>
@@ -119,7 +116,6 @@
                     <div class="inner">
                         <div class="info">
                             <h5>Hijaiyah Imanda Putri</h5>
-                            <p>Designer</p>
                             <div class="social-links">
                                 <a href="https://www.facebook.com/imanda.putri.1"><span class="fa fa-facebook"></span></a>
                                 <a href="https://github.com/imandaputri"><span class="fa fa-github"></span></a>
@@ -134,7 +130,6 @@
                     <div class="inner">
                         <div class="info">
                             <h5>Hafizh Al-Hadi</h5>
-                            <p>Designer</p>
                             <div class="social-links">
                                 <a href="https://www.facebook.com/hafizh.a.hadi"><span class="fa fa-facebook"></span></a>
                                 <a href="https://github.com/Hafizh31"><span class="fa fa-github"></span></a>
@@ -149,7 +144,6 @@
                     <div class="inner">
                         <div class="info">
                             <h5>Ilham Syaputra</h5>
-                            <p>Designer</p>
                             <div class="social-links">
                                 <a href="https://www.facebook.com/profile.php?id=100027549525980"><span class="fa fa-facebook"></span></a>
                                 <a href="https://github.com/putrailham18"><span class="fa fa-github"></span></a>

@@ -32,4 +32,7 @@ Route::get('/team-section', function () {
     return view('team-section');
 });
 
+Route::get('/contact', 'ContactController@showContactForm');
+Route::post('/contact', 'ContactController@sendMail');
+
 Route::post('/registerporter', 'RegisterporterrController@tambahporter');
