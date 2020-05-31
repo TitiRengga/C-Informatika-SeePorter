@@ -44,7 +44,7 @@
 
 
 .navbar ul li a:hover {
-    background: #2d8659;
+    background: #179774;
     transition: 0.5s;
     border-radius: 5px;
 }
@@ -139,7 +139,7 @@
 }
 
 .left {
-    background-color: teal;
+    background-color: #179774;
     padding: 40px;
     color: white;
     width: 600px auto;
@@ -171,7 +171,7 @@
 .progress-bar {
     border-radius: 16px;
     font-size: medium;
-    background-color: teal;
+    background-color: #179774;
 }
 
 .progress {
@@ -182,7 +182,7 @@
 
 /* deskripsi */
 #deskripsi {
-    background-color: #2d8659;
+    background-color: #179774;
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -318,8 +318,8 @@
     display: inline-block;
     width: 70px;
     height: 70px;
-    border: 3px solid #2d8659;
-    color: #2d8659;
+    border: 3px solid #179774;
+    color: #179774;
     transform: rotate(45deg);
     margin-bottom: 30px;
     margin-top: 16px;
@@ -333,7 +333,7 @@
 }
 
 .service-box:hover .service-icon {
-    background: #2d8659;
+    background: #179774;
     color: #ddd;
 }
 
@@ -375,7 +375,7 @@
 }
 
 .team-section {
-    background-color: #2d8659;
+    background-color: #179774;
     min-height: 100vh;
     padding: 70px 15px 30px;
 
@@ -432,7 +432,7 @@
 }
 
 .team-section .team-items .item .inner .info {
-    background-color: #2d8659;
+    background-color: #179774;
     text-align: center;
     padding: 20px 15px;
     border-radius: 8px;

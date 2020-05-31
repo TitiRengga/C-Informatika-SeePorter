@@ -87,12 +87,11 @@
                 <span onmouseover="starmark(this)" onclick="starmark(this)" id="4one"  style="font-size:60px;cursor:pointer;" class="fa fa-star"></span>
                 <span onmouseover="starmark(this)" onclick="starmark(this)" id="5one"  style="font-size:60px;cursor:pointer;" class="fa fa-star"></span>
                 </div>
+
                 <div class="modal-body">
-                        <br/>
-                        <textarea  style="margin-top:-15px;" class="form-control" rows="3" id="comment" placeholder="Enter your review"></textarea>
                 </div>
                 <div class="modal-footer">
-                    <button  onclick="result()" type="button" style="margin-top:10px;margin-left:5px;" class="btn btn-lg btn-success">Submit</button>
+                    <button  onclick="result()" type="button" style="margin-top:10px;margin-left:5px;" class="btn btn-lg btn-success text-center">Kembali</button>
                 </div>
             </div>
         </div>
@@ -112,6 +111,30 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script>
+            var count;
+            
+            function starmark(item)
+            {
+            count=item.id[0];
+            sessionStorage.starRating = count;
+            var subid= item.id.substring(1);
+            for(var i=0;i<5;i++)
+            {
+            if(i<count)
+            {
+            document.getElementById((i+1)+subid).style.color="orange";
+            }
+            else
+            {
+            document.getElementById((i+1)+subid).style.color="black";
+            }
+            
+            
+            }
+            
+            }
+            </script>
 </body>
 
 </html>

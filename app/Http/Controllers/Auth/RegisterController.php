@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
-use App\Providers\RouteServiceProvider;
 use App\User;
-use Illuminate\Foundation\Auth\RegistersUsers;
+use App\Porter;
+use App\Pengguna;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
 
 class RegisterController extends Controller
 {
@@ -23,13 +25,12 @@ class RegisterController extends Controller
     */
 
     use RegistersUsers;
-
     /**
      * Where to redirect users after registration.
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = '/home';
 
     /**
      * Create a new controller instance.
@@ -39,6 +40,8 @@ class RegisterController extends Controller
     public function __construct()
     {
         $this->middleware('guest');
+        $this->middleware('guest:porter');
+        $this->middleware('guest:pengguna');
     }
 
     /**
@@ -50,28 +53,74 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'namalengkap' => ['required', 'string', 'max:255'],
-            'tanggal_lahir' => ['required', 'date'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'nomor_hp' => ['required', 'string', 'max:20'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
+            'lokasipasar' => 'required|string|max:255',
+            'password' => 'required|string|min:6|confirmed',
         ]);
     }
 
     /**
-     * Create a new user instance after a valid registration.
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function showPorterRegisterForm()
+    {
+        return view('auth.register', ['url' => 'porter']);
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function showPenggunaRegisterForm()
+    {
+        return view('auth.register', ['url' => 'pengguna']);
+    }
+
+    /**
+     * @param array $data
      *
-     * @param  array  $data
-     * @return \App\User
+     * @return mixed
      */
     protected function create(array $data)
     {
         return User::create([
-            'namalengkap' => $data['namalengkap'],
-            'tanggal_lahir' => $data['tanggal_lahir'],
+            'name' => $data['name'],
             'email' => $data['email'],
-            'nomor_hp' => $data['nomor_hp'],
+            'lokasipasar' => $data['lokasipasar'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    /**
+     * @param Request $request
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    protected function createPorter(Request $request)
+    {
+        $this->validator($request->all())->validate();
+        Porter::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'lokasipasar' => $request->lokasipasar,
+            'password' => Hash::make($request->password),
+        ]);
+        return redirect()->intended('/porter');
+    }
+
+    /**
+     * @param Request $request
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    protected function createPengguna(Request $request)
+    {
+        $this->validator($request->all())->validate();
+        Pengguna::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+        ]);
+        return redirect()->intended('/pengguna');
     }
 }

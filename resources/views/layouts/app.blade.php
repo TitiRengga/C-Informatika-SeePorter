@@ -66,7 +66,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item active m-3">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('LOGIN') }}</a>
+                                <a class="nav-link" href="/pilihdaftarlogin">{{ __('LOGIN') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item active m-3">
